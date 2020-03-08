@@ -52,6 +52,11 @@ public class myBinarySearchTree {
         }
         return response;
         }
+    /* traverse */
+    public void traversePreOrder(TreeNode node){
+      //statements
+    }
+
 
 
     }
