@@ -15,13 +15,13 @@ public class myBinarySearchTree {
             TreeNode temp = root;
             TreeNode parent = null;
             while (temp != null) {
-                parent=temp;
+                parent = temp;
                 if (node.getData() <= temp.getData()) {
                     temp = temp.getLeft();
-                }
-                else {
+                } else {
                     temp = temp.getRight();
                 }
+            }
                 if (node.getData() <= parent.getData()) {
                     parent.setLeft(node);
                 }
@@ -30,7 +30,7 @@ public class myBinarySearchTree {
                 }
             }
         }
-    }
+
     //search
     public boolean search(int data) {
         //statements
