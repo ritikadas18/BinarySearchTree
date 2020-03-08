@@ -5,5 +5,7 @@ public class myMain {
         myBinarySearchTree bst = new myBinarySearchTree();
         bst.insert(40);
         bst.insert(100);
+        bst.insert(27);
+
     }
 }
