@@ -15,5 +15,7 @@ public class myMain {
         bst.insert(47);
         bst.traversePreOrder(bst.getRoot());
         System.out.println();
+        bst.traversePostOrder(bst.getRoot());
+        System.out.println();
     }
 }
