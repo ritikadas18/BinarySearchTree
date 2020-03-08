@@ -5,4 +5,9 @@ public class myBinarySearchTree {
     public TreeNode getRoot() {
         return root;
     }
+    //insert
+    public void insert(int data) {
+        //statements
+    }
+
 }
