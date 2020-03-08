@@ -63,6 +63,11 @@ public class myBinarySearchTree {
     }
     public void traverseInOrder(TreeNode node) {
         //statements
+        if(node!=null){
+            traverseInOrder(node.getLeft());
+            System.out.print(node.getData()+",");
+            traverseInOrder(node.getRight());
+        }
     }
 
 
