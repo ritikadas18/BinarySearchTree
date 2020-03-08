@@ -34,6 +34,23 @@ public class myBinarySearchTree {
     //search
     public boolean search(int data) {
         //statements
+        TreeNode temp = root;
+        boolean response = false;
+        while(temp!=null) {
+            if(temp.getData()==data) {
+                response=true;
+                break;
+            }
+            else {
+                if(data<temp.getData()) {
+                    temp=temp.getLeft();
+                }
+                else{
+                    temp=temp.getRight();
+                }
+            }
+        }
+        return response;
         }
 
 
