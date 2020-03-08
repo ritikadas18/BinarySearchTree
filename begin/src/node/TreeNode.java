@@ -17,4 +17,12 @@ public class TreeNode {
     public void setData(int data) {
         this.data = data;
     }
+
+    public TreeNode getLeft() {
+        return left;
+    }
+
+    public void setLeft(TreeNode left) {
+        this.left = left;
+    }
 }
