@@ -69,14 +69,14 @@ public class myBinarySearchTree {
             traverseInOrder(node.getRight());
         }
     }
-    public void traversePostOrder(TreeNode node)
-    {
+    public void traversePostOrder(TreeNode node) {
         //statements
-        traversePostOrder(node.getLeft());
-        traversePostOrder(node.getRight());
-        System.out.print(node.getData()+",");
+        if (node != null) {
+            traversePostOrder(node.getLeft());
+            traversePostOrder(node.getRight());
+            System.out.print(node.getData() + ",");
+        }
+
     }
-
-
     }
 
