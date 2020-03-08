@@ -17,5 +17,7 @@ public class myMain {
         System.out.println();
         bst.traversePostOrder(bst.getRoot());
         System.out.println();
+        bst.traverseInOrder(bst.getRoot());
+        System.out.println();
     }
 }
