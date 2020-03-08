@@ -19,5 +19,7 @@ public class myMain {
         System.out.println();
         bst.traverseInOrder(bst.getRoot());
         System.out.println();
+        System.out.println(bst.search(70));
+        System.out.println(bst.search(92));
     }
 }
