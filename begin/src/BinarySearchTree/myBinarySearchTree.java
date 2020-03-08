@@ -55,6 +55,11 @@ public class myBinarySearchTree {
     /* traverse */
     public void traversePreOrder(TreeNode node){
       //statements
+        if(node!=null){
+            System.out.print(node.getData()+",");
+            traversePreOrder(node.getLeft());
+            traversePreOrder(node.getRight());
+        }
     }
 
 
