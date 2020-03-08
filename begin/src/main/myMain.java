@@ -9,5 +9,10 @@ public class myMain {
         bst.insert(103);
         bst.insert(55);
         bst.insert(65);
+        bst.insert(57);
+        bst.insert(92);
+        bst.insert(77);
+        bst.insert(47);
+
     }
 }
