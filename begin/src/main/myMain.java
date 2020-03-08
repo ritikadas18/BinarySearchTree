@@ -13,6 +13,7 @@ public class myMain {
         bst.insert(92);
         bst.insert(77);
         bst.insert(47);
-
+        bst.traversePreOrder(bst.getRoot());
+        System.out.println();
     }
 }
