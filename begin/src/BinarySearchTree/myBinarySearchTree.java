@@ -69,6 +69,10 @@ public class myBinarySearchTree {
             traverseInOrder(node.getRight());
         }
     }
+    public void traversePostOrder(TreeNode node)
+    {
+        //statements
+    }
 
 
     }
