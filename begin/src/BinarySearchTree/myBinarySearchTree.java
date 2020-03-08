@@ -31,4 +31,11 @@ public class myBinarySearchTree {
             }
         }
     }
-}
+    //search
+    public boolean search(int data) {
+        //statements
+        }
+
+
+    }
+
