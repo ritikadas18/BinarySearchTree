@@ -6,6 +6,7 @@ public class myMain {
         bst.insert(40);
         bst.insert(100);
         bst.insert(27);
+        bst.insert(103);
 
     }
 }
